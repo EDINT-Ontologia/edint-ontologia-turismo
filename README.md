@@ -1,4 +1,8 @@
 # Ontología EDINT Turismo (EDINT Tourism Ontology)
+
+[![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://ontologia.segittur.es/turismo/def/core)
+![Prefijo](https://img.shields.io/badge/prefijo-estur-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
 Este repositorio demuestra cómo se puede reutilizar la ontología de turismo que se está desarrollando en el contexto del espacio de datos de turismo promovido por SEGITTUR. Específicamente, se utilizan en los ejemplos las siguientes clases y propiedades:
 ## Clase AccomodationEstablishment
 Los tipos de alojamiento son subclases: Hotel, Hostal, Hostel, Aparthotel, Vacation Rentals.
