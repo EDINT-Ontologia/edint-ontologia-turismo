@@ -57,7 +57,7 @@ El propósito de esta ontología es el de proporcionar un vocabulario común par
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo de la ontología es: `estur` y se encuentra publicada en el espacio de nombres: [https://ontologia.segittur.es/turismo/def/core#)](https://ontologia.segittur.es/turismo/def/core#)
+El prefijo de esta ontología es `estur` y se publica bajo el espacio de nombres https://ontologia.segittur.es/turismo/def/core#
 
 # Estructura del repositorio (Repository structure)
 
