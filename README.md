@@ -40,7 +40,7 @@ Los tipos de alojamiento son subclases: Hotel, Hostal, Hostel, Aparthotel, Vacat
 - gsp:lat y gsp:long (subclase de gsp:Feature)
 
 ## Clase: HistoricalOrCulturalResource
-Los tipos de alojamiento son subclases: Alcazar, Amphiteatre, Acueduct, etc.
+Los tipos de recurso histórico-cultural son subclases: Alcazar, Amphiteatre, Acueduct, etc.
 
 ### Propiedades:
 - name (data property) xsd:string
