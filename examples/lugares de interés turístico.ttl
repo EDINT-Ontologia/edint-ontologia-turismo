@@ -1,98 +1,93 @@
 @prefix ex: <http://example.org/turismo/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
-@prefix map: <http://mapping.example.com/> .
-@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
-@prefix rr: <http://www.w3.org/ns/r2rml#> .
-@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
-@prefix segittur: <https://ontologia.segittur.es/turismo/def/core#> .
+@prefix estur: <https://ontologia.segittur.es/turismo/def/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Contact_alcala-0> a segittur:ContactPoint;
-  segittur:email "turismo@ayto-alcaladehenares.es";
-  segittur:telephone "918892694";
-  segittur:url "www.turismoalcala.es" .
+ex:Contact_alcala-0 a estur:ContactPoint;
+  estur:email "turismo@ayto-alcaladehenares.es";
+  estur:telephone "918892694";
+  estur:url "www.turismoalcala.es" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Contact_alcala-1> a segittur:ContactPoint;
-  segittur:email "complutum@ayto-alcaladehenares.es";
-  segittur:telephone "918892694";
-  segittur:url "www.turismoalcala.es" .
+ex:Contact_alcala-1 a estur:ContactPoint;
+  estur:email "complutum@ayto-alcaladehenares.es";
+  estur:telephone "918892694";
+  estur:url "www.turismoalcala.es" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Contact_seg-0> a segittur:ContactPoint;
-  segittur:email "turismo@segovia.es";
-  segittur:telephone "921466720";
-  segittur:url "www.turismosegovia.com" .
+ex:Contact_seg-0 a estur:ContactPoint;
+  estur:email "turismo@segovia.es";
+  estur:telephone "921466720";
+  estur:url "www.turismosegovia.com" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Desc_alcala-0> a segittur:Description;
-  segittur:longDescription "Palacio fortificado compuesto por zonas construidas en diferentes etapas históricas. Hoy alberga el obispado y valiosos archivos.";
-  segittur:shortDescription "Residencia histórica fortificada." .
+ex:Desc_alcala-0 a estur:Description;
+  estur:longDescription "Palacio fortificado compuesto por zonas construidas en diferentes etapas históricas. Hoy alberga el obispado y valiosos archivos.";
+  estur:shortDescription "Residencia histórica fortificada." .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Desc_alcala-1> a segittur:Description;
-  segittur:longDescription "Antigua ciudad romana que alberga los restos de la infraestructura de espectáculos y vida pública de la antigua Complutum.";
-  segittur:shortDescription "Restos del anfiteatro romano." .
+ex:Desc_alcala-1 a estur:Description;
+  estur:longDescription "Antigua ciudad romana que alberga los restos de la infraestructura de espectáculos y vida pública de la antigua Complutum.";
+  estur:shortDescription "Restos del anfiteatro romano." .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Desc_seg-0> a segittur:Description;
-  segittur:longDescription "El Acueducto de Segovia es una de las obras de ingeniería civil romana más impresionantes y mejor conservadas que conducía las aguas a la ciudad.";
-  segittur:shortDescription "Obra de ingeniería civil romana." .
+ex:Desc_seg-0 a estur:Description;
+  estur:longDescription "El Acueducto de Segovia es una de las obras de ingeniería civil romana más impresionantes y mejor conservadas que conducía las aguas a la ciudad.";
+  estur:shortDescription "Obra de ingeniería civil romana." .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Rating_alcala-0> a segittur:Rating;
-  segittur:ratingUnit "stars";
-  segittur:ratingValue "0" .
+ex:Rating_alcala-0 a estur:Rating;
+  estur:ratingUnit "stars";
+  estur:ratingValue "0" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Rating_alcala-1> a segittur:Rating;
-  segittur:ratingUnit "stars";
-  segittur:ratingValue "0" .
+ex:Rating_alcala-1 a estur:Rating;
+  estur:ratingUnit "stars";
+  estur:ratingValue "0" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/Rating_seg-0> a segittur:Rating;
-  segittur:ratingUnit "stars";
-  segittur:ratingValue "0" .
+ex:Rating_seg-0 a estur:Rating;
+  estur:ratingUnit "stars";
+  estur:ratingValue "0" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/cultural/alcazar/alcala-0> a segittur:Alcazar;
-  segittur:hasDescription <http://vocab.linkeddata.es/datosabiertos/recurso/Desc_alcala-0>;
-  segittur:hasLocation <http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_alcala-0>;
-  segittur:name "Palacio Arzobispal" .
+ex:cultural/alcazar/alcala-0 a estur:Alcazar;
+  estur:hasDescription ex:Desc_alcala-0;
+  estur:hasLocation ex:location/Location_alcala-0;
+  estur:name "Palacio Arzobispal" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/cultural/alcazar/alcala-1> a segittur:Amphiteatre;
-  segittur:hasDescription <http://vocab.linkeddata.es/datosabiertos/recurso/Desc_alcala-1>;
-  segittur:hasLocation <http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_alcala-1>;
-  segittur:name "Complutum" .
+ex:cultural/alcazar/alcala-1 a estur:Amphiteatre;
+  estur:hasDescription ex:Desc_alcala-1;
+  estur:hasLocation ex:location/Location_alcala-1;
+  estur:name "Complutum" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/cultural/alcazar/seg-0> a segittur:Acueduct;
-  segittur:hasDescription <http://vocab.linkeddata.es/datosabiertos/recurso/Desc_seg-0>;
-  segittur:hasLocation <http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_seg-0>;
-  segittur:name "Acueducto de Segovia" .
+ex:cultural/alcazar/seg-0 a estur:Acueduct;
+  estur:hasDescription ex:Desc_seg-0;
+  estur:hasLocation ex:location/Location_seg-0;
+  estur:name "Acueducto de Segovia" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_alcala-0> a segittur:Location;
+ex:location/Location_alcala-0 a estur:Location;
   gsp:lat "40.4822";
   gsp:long "-3.3644";
-  segittur:autonomousCommunity "Comunidad de Madrid";
-  segittur:country "España";
-  segittur:county "Corredor del Henares";
-  segittur:locality "Alcalá de Henares";
-  segittur:postalCode "28801";
-  segittur:province "Madrid";
-  segittur:streetAddress "Plaza Palacio, s/n" .
+  estur:autonomousCommunity "Comunidad de Madrid";
+  estur:country "España";
+  estur:county "Corredor del Henares";
+  estur:locality "Alcalá de Henares";
+  estur:postalCode "28801";
+  estur:province "Madrid";
+  estur:streetAddress "Plaza Palacio, s/n" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_alcala-1> a segittur:Location;
+ex:location/Location_alcala-1 a estur:Location;
   gsp:lat "40.48124";
   gsp:long "-3.371143";
-  segittur:autonomousCommunity "Comunidad de Madrid";
-  segittur:country "España";
-  segittur:county "Corredor del Henares";
-  segittur:locality "Alcalá de Henares";
-  segittur:postalCode "28802";
-  segittur:province "Madrid";
-  segittur:streetAddress "Camino del Juncal, 12" .
+  estur:autonomousCommunity "Comunidad de Madrid";
+  estur:country "España";
+  estur:county "Corredor del Henares";
+  estur:locality "Alcalá de Henares";
+  estur:postalCode "28802";
+  estur:province "Madrid";
+  estur:streetAddress "Camino del Juncal, 12" .
 
-<http://vocab.linkeddata.es/datosabiertos/recurso/location/Location_seg-0> a segittur:Location;
+ex:location/Location_seg-0 a estur:Location;
   gsp:lat "40.9481";
   gsp:long "-4.1183";
-  segittur:autonomousCommunity "Castilla y León";
-  segittur:country "España";
-  segittur:county "Segovia";
-  segittur:locality "Segovia";
-  segittur:postalCode "40001";
-  segittur:province "Segovia";
-  segittur:streetAddress "Plaza del Azoguejo, 1" .
+  estur:autonomousCommunity "Castilla y León";
+  estur:country "España";
+  estur:county "Segovia";
+  estur:locality "Segovia";
+  estur:postalCode "40001";
+  estur:province "Segovia";
+  estur:streetAddress "Plaza del Azoguejo, 1" .

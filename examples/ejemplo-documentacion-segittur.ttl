@@ -1,7 +1,7 @@
 @prefix estur-priceclass: <https://ontologia.segittur.es/turismo/kos/priceclass/> .
 @prefix estur-accommodationservice: <https://ontologia.segittur.es/turismo/kos/accommodationservice/> .
 @prefix estur-accommodationratetype: <https://ontologia.segittur.es/turismo/kos/accomodationratetype/> .
-@prefix ex: <https://ontologia.segittur.es/example/>.
+@prefix ex: <https://example.org/recurso/>.
 @prefix estur: <https://ontologia.segittur.es/turismo/def/core#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
