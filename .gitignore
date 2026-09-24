@@ -201,3 +201,7 @@ coverage/
 
 # Widoco
 widoco*
+
+# Placeholder local de la ontología: no se versiona de momento
+ontology/ontology.owl
+documentation/ontology.owl
