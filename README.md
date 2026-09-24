@@ -68,6 +68,19 @@ El repositorio contiene las siguientes carpetas
 | **examples/** | Contiene las fuentes de datos y los ejemplos en RDF generados con la ontología a partir de estas fuentes. |
 | **mappings/** | Contiene los ficheros de los mappings (reglas de correspondencia) utilizados para generar los ejemplos en RDF.  |
 
+## Diagrama conceptual y Diagrama con ejemplo para Turismo (Tourism conceptual diagram and examples diagram)
+### Porción del diagrama conceptual de la Ontología de Turismo del espacio de datos de turismo promovido por SEGITTUR 
+
+
+![Diagrama conceptual Turismo](diagrams/diagrama-conceptual.png)
+
+Este diagrama contiene las clases, propiedades de datos y propiedades de objeto (relaciones entre clases) de la Ontología de Turismo de SEGITTUR que se han identificado para ser reutilizadas en el dominio de turismo para ciudades. Uno de los conceptos centrales es  `segittur:AccomodationEstablishment` (establecimiento para alojamiento), que se relaciona con otras clases tales como  `segittur:ContactPoint`, `segittur:Location` (al ser subclase de `segittur:Place`), `segittur:Description`, `segittur:Rating`, etc.
+
+### Ejemplo de utilización de los conceptos de la Ontología de Turismo SEGITTUR  
+
+![Diagrama con ejemplo Turismo](diagrams/diagrama-ejemplos.png)
+
+Este ejemplo ilustra la utilización de la Ontología de Turismo SEGITTUR para el dominio de turismo de ciudades. Se tiene un `segittur:AccomodationEstablishment` (establecimiento) con identificador "cyl-2" que se relaciona con su contacto, descripción, ubicación y clasificación. Para cada instancia también se representan sus propiedades de datos. 
 ## Mantenimiento y evolución (Maintenance and evolution)
 
 Para manejar las incidencias o mejoras sugeridas con respecto a la ontología, recomendamos seguir las guías proporcionadas en ([Issues Management](./ISSUES.md)) para generar una incidencia.
