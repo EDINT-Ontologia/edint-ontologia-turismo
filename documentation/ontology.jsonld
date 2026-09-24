@@ -1,0 +1,203 @@
+[ {
+  "@id" : "_:genid1",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Edna Ruckhaus"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Daniel Doña"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Lucía Sánchez"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Maria del Socorro Bernardos"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Oscar Corcho"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://www.femp.es/"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "FEMP"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@value" : "Federación Española de Municipios y Provincias"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://edint.es/def/turismo#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en",
+    "@value" : "Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources."
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo."
+  } ],
+  "http://purl.org/dc/terms/bibliographicCitation" : [ {
+    "@language" : "en",
+    "@value" : "EDINT Tourism Ontology. EDINT. Revision: v0.1.0."
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología EDINT de Turismo. EDINT. Revisión: v0.1.0."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-09-23"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources."
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-09-23"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-sa/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2026-09-23"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "EDINT Tourism Ontology"
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología EDINT de Turismo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "segittur"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "https://edint.es/def/turismo#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tourism"
+  }, {
+    "@language" : "es",
+    "@value" : "Turismo"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://edint.es/def/turismo/0.1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.1.0"
+  } ],
+  "https://schema.org/codeRepository" : [ {
+    "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-turismo"
+  } ],
+  "https://schema.org/creativeWorkStatus" : [ {
+    "@language" : "en",
+    "@value" : "Ontology Specification"
+  } ],
+  "https://schema.org/funding" : [ {
+    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
+  } ]
+}, {
+  "@id" : "https://oeg.fi.upm.es/",
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Ontology Engineering Group, UPM"
+  } ]
+}, {
+  "@id" : "https://schema.org/affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/creativeWorkStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
