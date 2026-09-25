@@ -634,7 +634,7 @@
         <mxCell id="gIeYqcoEVgO86ztSkR-Z-31" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;&lt;u&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ex:&lt;/span&gt;&lt;/u&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;u&gt;cyl-2&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="170" x="-180" y="581" as="geometry" />
         </mxCell>
-        <mxCell id="gIeYqcoEVgO86ztSkR-Z-32" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="gIeYqcoEVgO86ztSkR-Z-31" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="gIeYqcoEVgO86ztSkR-Z-0" value="">
+        <mxCell id="gIeYqcoEVgO86ztSkR-Z-32" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="gIeYqcoEVgO86ztSkR-Z-31" style="endArrow=classic;html=1;rounded=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="gIeYqcoEVgO86ztSkR-Z-0" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-180" y="600" as="sourcePoint" />
             <mxPoint x="-130" y="550" as="targetPoint" />
@@ -642,7 +642,7 @@
         </mxCell>
         <mxCell id="gIeYqcoEVgO86ztSkR-Z-33" connectable="0" parent="gIeYqcoEVgO86ztSkR-Z-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:hasContactPoint" vertex="1">
           <mxGeometry relative="1" x="0.3324" y="-2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="40" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gIeYqcoEVgO86ztSkR-Z-34" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
@@ -694,7 +694,7 @@
         </mxCell>
         <mxCell id="gIeYqcoEVgO86ztSkR-Z-45" connectable="0" parent="gIeYqcoEVgO86ztSkR-Z-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:hasDescription" vertex="1">
           <mxGeometry relative="1" x="0.1415" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-15" y="-84" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gIeYqcoEVgO86ztSkR-Z-46" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" target="gIeYqcoEVgO86ztSkR-Z-19" value="">
@@ -835,7 +835,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1ROrYpJosAP05Zm6B-t6-1" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;estur:Amphiteatre&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="35" width="170" x="60" y="310" as="geometry" />
+          <mxGeometry height="35" width="170" x="60" y="304" as="geometry" />
         </mxCell>
         <mxCell id="1ROrYpJosAP05Zm6B-t6-2" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="1ROrYpJosAP05Zm6B-t6-1" style="endArrow=block;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;" target="dD7Uw3jcyeUM-5TzE9Og-60" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -1027,11 +1027,81 @@
             <mxGeometry height="490" width="430" x="-770" y="880" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;pre&gt;ex:Contact_alcala-1 a estur:ContactPoint;&lt;br&gt;&lt;pre&gt;  estur:email &quot;complutum@ayto-alcaladehenares.es&quot;;&lt;br&gt;  estur:telephone &quot;918892694&quot;;&lt;br&gt;  estur:url &quot;www.turismoalcala.es&quot; .&lt;/pre&gt;&lt;br&gt;ex:Contact_seg-0 a estur:ContactPoint;&lt;br&gt;  estur:email &quot;turismo@segovia.es&quot;;&lt;br&gt;  estur:telephone &quot;921466720&quot;;&lt;br&gt;  estur:url &quot;www.turismosegovia.com&quot; .&lt;br&gt;&lt;br&gt;ex:Desc_alcala-1 a estur:Description;&lt;br&gt;  estur:longDescription &quot;Antigua ciudad romana que ...&quot;&lt;br&gt;  estur:shortDescription &quot;Restos del anfiteatro romano.&quot; .&lt;br&gt;&lt;br&gt;ex:cultural/alcazar/alcala-1 a estur:Amphiteatre;&lt;br&gt;  estur:hasDescription ex:Desc_alcala-1;&lt;br&gt;  estur:hasLocation ex:location/Location_alcala-1;&lt;br&gt;  estur:name &quot;Complutum&quot; .&lt;br&gt;&lt;br&gt;ex:location/Location_alcala-1 a estur:Location;&lt;br&gt;  gsp:lat &quot;40.48124&quot;;&lt;br&gt;  gsp:long &quot;-3.371143&quot;;&lt;br&gt;  estur:autonomousCommunity &quot;Comunidad de Madrid&quot;;&lt;br&gt;  estur:country &quot;España&quot;;&lt;br&gt;  estur:county &quot;Corredor del Henares&quot;;&lt;br&gt;  estur:locality &quot;Alcalá de Henares&quot;;&lt;br&gt;  estur:postalCode &quot;28802&quot;;&lt;br&gt;  estur:province &quot;Madrid&quot;;&lt;br&gt;  estur:streetAddress &quot;Camino del Juncal, 12&quot; .&lt;br&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" id="_gRLSTwsZu_yQ3jkhQIA-6">
+        <UserObject label="&lt;pre&gt;ex:Contact_alcala-1 a estur:ContactPoint;&lt;br&gt;&lt;pre&gt;  estur:email &quot;complutum@ayto-alcaladehenares.es&quot;;&lt;br&gt;  estur:telephone &quot;918892694&quot;;&lt;br&gt;  estur:url &quot;www.turismoalcala.es&quot; .&lt;/pre&gt;&lt;br&gt;ex:Desc_alcala-1 a estur:Description;&lt;br&gt;  estur:longDescription &quot;Antigua ciudad romana que ...&quot;&lt;br&gt;  estur:shortDescription &quot;Restos del anfiteatro romano.&quot; .&lt;br&gt;&lt;br&gt;ex:cultural/alcazar/alcala-1 a estur:Amphiteatre;&lt;br&gt;  estur:hasDescription ex:Desc_alcala-1;&lt;br&gt;  estur:hasLocation ex:location/Location_alcala-1;&lt;br&gt;  estur:name &quot;Complutum&quot; .&lt;br&gt;&lt;br&gt;ex:location/Location_alcala-1 a estur:Location;&lt;br&gt;  gsp:lat &quot;40.48124&quot;;&lt;br&gt;  gsp:long &quot;-3.371143&quot;;&lt;br&gt;  estur:autonomousCommunity &quot;Comunidad de Madrid&quot;;&lt;br&gt;  estur:country &quot;España&quot;;&lt;br&gt;  estur:county &quot;Corredor del Henares&quot;;&lt;br&gt;  estur:locality &quot;Alcalá de Henares&quot;;&lt;br&gt;  estur:postalCode &quot;28802&quot;;&lt;br&gt;  estur:province &quot;Madrid&quot;;&lt;br&gt;  estur:streetAddress &quot;Camino del Juncal, 12&quot; .&lt;br&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" id="_gRLSTwsZu_yQ3jkhQIA-6">
           <mxCell parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1">
-            <mxGeometry height="450" width="430" x="-290" y="880" as="geometry" />
+            <mxGeometry height="490" width="430" x="-290" y="880" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-0" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;u&gt;ex:Contact_alcala-1&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;:&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="-430" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-1" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="TiXd_nMSeOCcpFg0Y8qt-0" style="endArrow=classic;html=1;rounded=0;exitX=0.4;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.6;entryY=1;entryDx=0;entryDy=0;" target="dD7Uw3jcyeUM-5TzE9Og-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-460" y="489" as="sourcePoint" />
+            <mxPoint x="-420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-2" connectable="0" parent="TiXd_nMSeOCcpFg0Y8qt-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="rdf:type" vertex="1">
+          <mxGeometry relative="1" x="0.0001" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-3" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&quot;918892694&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="-370" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-4" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&quot;www.turismoalcala.es&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="129" x="-338" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-5" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="TiXd_nMSeOCcpFg0Y8qt-0" style="endArrow=classic;html=1;rounded=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;exitX=0.4;exitY=1;exitDx=0;exitDy=0;" target="TiXd_nMSeOCcpFg0Y8qt-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-370" y="390" as="sourcePoint" />
+            <mxPoint x="-320" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-6" connectable="0" parent="TiXd_nMSeOCcpFg0Y8qt-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:telephone" vertex="1">
+          <mxGeometry relative="1" x="0.0955" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-7" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="TiXd_nMSeOCcpFg0Y8qt-0" style="endArrow=classic;html=1;rounded=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TiXd_nMSeOCcpFg0Y8qt-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-310" y="390" as="sourcePoint" />
+            <mxPoint x="-260" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-8" connectable="0" parent="TiXd_nMSeOCcpFg0Y8qt-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:url" vertex="1">
+          <mxGeometry relative="1" x="0.2822" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-9" parent="dD7Uw3jcyeUM-5TzE9Og-1" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];align=center;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&quot;complutum@ayto-alcaladehenares.es&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="-338" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-10" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="TiXd_nMSeOCcpFg0Y8qt-0" style="endArrow=classic;html=1;rounded=0;exitX=0.6;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1;entryDx=0;entryDy=0;" target="TiXd_nMSeOCcpFg0Y8qt-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-360" y="290" as="sourcePoint" />
+            <mxPoint x="-270" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-11" connectable="0" parent="TiXd_nMSeOCcpFg0Y8qt-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:email" vertex="1">
+          <mxGeometry relative="1" x="-0.3933" y="-1" as="geometry">
+            <mxPoint x="13" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-12" edge="1" parent="dD7Uw3jcyeUM-5TzE9Og-1" source="1ROrYpJosAP05Zm6B-t6-3" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;exitX=0.3;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;" target="TiXd_nMSeOCcpFg0Y8qt-0" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="360" />
+            </Array>
+            <mxPoint x="540" y="270" as="sourcePoint" />
+            <mxPoint x="590" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TiXd_nMSeOCcpFg0Y8qt-13" connectable="0" parent="TiXd_nMSeOCcpFg0Y8qt-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="estur:hasContactPoint" vertex="1">
+          <mxGeometry relative="1" x="0.2967" as="geometry">
+            <mxPoint x="-10" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

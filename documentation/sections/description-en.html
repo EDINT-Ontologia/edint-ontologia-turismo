@@ -1,2 +1,80 @@
 <h2 id="desc" class="list">Tourism: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources. The repository examples instantiate accommodation establishments (<code>estur:AccomodationEstablishment</code> and its subclasses Hotel, Hostal, Hostel, Aparthotel and Vacation Rentals) with their rating (<code>accomodationRating</code>), number of units and beds, registration number, description, location and contact point, reusing the classes and properties of the SEGITTUR tourism ontology.</span>
+<span class="markdown"><p>
+A more detailed description of the classes and properties of the SEGITTUR Tourism Ontology identified for reuse in the city tourism domain follows:</p>
+<ul>
+<li>Class <code>AccommodationEstablishment</code>
+Accommodation types are subclasses: Hotel, Hostal, Hostel, Aparthotel, Vacation Rentals
+<ul>
+<li><code>AccommodationRating</code> (object property) between an accommodation and its rating</li>
+<li><code>numberOfAccommodationUnits</code> (data property). Quantity of accommodation units, e.g., rooms</li>
+<li><code>numberOfBeds</code> (data property). Total number of beds</li>
+<li><code>registrationNumber</code> (data property). Identifier</li>
+<li><code>hasDescription</code> (object property) between a tourism entity (superclass) and its description</li>
+<li><code>name</code> (data property) </li>
+<li><code>hasLocation</code> (object property) between a place (superclass) and its location </li>
+<li><code>hasContactPoint</code> (object property) between a place (superclass) and its contact point</li>
+</ul>
+</li>
+<li>Class <code>ContactPoint</code>
+Contact details for the accommodation, which may include email, telephone, or a website
+<ul>
+<li><code>email</code> (data property)</li>
+<li><code>telephone</code> (data property)</li>
+<li><code>url</code> (data property)</li>
+</ul>
+</li>
+
+<li>Class <code>Rating</code>
+Accommodation rating
+<ul>
+<li><code>ratingUnit</code> (data property). Rating unit, e.g., "stars"</li>
+<li><code>ratingValue</code> (data property). Rating value, for example "3"</li>
+</ul>
+</li>
+
+<li>Class <code>Description</code> 
+Short or long description of the accommodation
+<ul>
+<li><code>longDescription</code> (data property)</li>
+<li><code>shortDescription</code> (data property)</li>
+</ul>
+</li>
+
+<li>Class <code>Location</code> 
+Accommodation location
+<ul>
+<li><code>autonomousCommunity</code> (data property)</li>
+<li><code>country</code> (data property)</li>
+<li><code>county</code> (data property)</li>
+<li><code>province</code> (data property)</li>
+<li><code>locality</code> (data property) </li>
+<li><code>postal code</code> (data property)</li>
+<li><code>street address</code> (data property)</li>
+<li><code>gsp:lat</code> and <code>gsp:long</code>. Because it is a subclass of <code>gsp:Feature</code>, the coordinates, latitude and longitude of the accommodation are represented</li>
+</ul>
+</li>
+
+<li>Class <code>HistoricalOrCulturalResource</code>
+Historical or cultural resource. The resource types are subclasses: Alcazar, Amphitheater, Acueduct, etc.
+<ul>
+<li><code>name</code> (data property)</li>
+<li><code>hasLocation</code> (object property) between a place (superclass) and its location</li>
+<li><code>hasDescription</code> (object property) between a tourism entity (superclass) and its description</li>
+</ul>
+</li>
+</ul>
+<span class="markdown"><p>Figure 1 graphically illustrates the concepts from the SEGITTUR ontology that have been reused:</p>
+<p><center><img src="images/diagrama-conceptual.png"/><figcaption>
+Figure 1. Conceptual model of the ontology</figcaption></center></p>
+<p>One of the central concepts is <code>estur:AccommodationEstablishment</code>, which relates to other classes such as <code>estur:ContactPoint</code> and <code>estur:Location</code> (as it is a subclass of <code>estur:Place</code>). The <code>estur:Location</code> class represents the accommodation's location, specified via its latitude, longitude, country, province, locality, postal code, and address.</p>
+
+<p>It also relates to <code>estur:Description</code> (as it is a subclass of <code>estur:TourismEntity</code>). The class relates to <code>estur:Rating</code> to indicate the establishment's classification in a specific unit of measurement—for example, "Stars"—and to <code>estur:PriceSpecification</code>.</p> It also possesses properties linked to SKOS taxonomies: <code>estur-kos:AccomodationCategory</code> (accommodation category), <code>estur-kos:typeOfAccomodationRate</code> (accommodation rate type), <code>estur-kos:OffersAdditionalAccomodationService</code> (offers additional service), and <code>estur:PriceClass</code> (price category).</p>
+
+<p>A concept relevant to city tourism is <code>estur:HistoricalOrCulturalResource</code> (historical or cultural resource), which encompasses museums, monuments, and shrines, among others. It is a subclass of <code>estur:Place</code>; consequently, it relates to <code>estur:ContactPoint</code> and <code>estur:Location</code>, and its <code>estur:Description</code> is also represented, as it is a type of <code>estur:TourismEntity</code>.
+<p>Figure 2 shows examples of accommodation and resource instances.
+	<p><center><img src="images/diagrama-ejemplos.png"/><figcaption>
+<figcaption>Figure 2. Example of the use of concepts from the SEGITTUR Tourism Ontology</figcaption></center></p>
+<p>This example illustrates the use of the SEGITTUR Tourism Ontology for the city tourism domain. It features an <code>estur:AccommodationEstablishment</code> (establishment) with the identifier "cyl-2". This accommodation has an <code>estur:ContactPoint</code> with the identifier "Contact_cyl-2" and properties for email, URL, and telephone. It includes an <code>estur:Description</code> with the short description "Apartamentos céntricos" (Centrally located apartments). It is linked to an <code>estur:Location</code> with properties representing the town ("Soria"), the postal code, the autonomous community ("Castilla y León"), and its latitude and longitude coordinates.</p>
+<p>The diagram also depicts—in a manner similar to the "alcala-1" accommodation—an instance of <code>estur:HistoricalOrCulturalResource</code> (historical or cultural resource): an amphitheater located in Alcalá de Henares named "Complutum".
+</p>
+</span>
