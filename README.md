@@ -1,6 +1,6 @@
 # Ontología EDINT Turismo (EDINT Tourism Ontology)
 
-[![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://ontologia.estur.es/turismo/def/core)
+[![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://ontologia.segittur.es/turismo/def/core)
 ![Prefijo](https://img.shields.io/badge/prefijo-estur-informational)
 [![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
 Este repositorio demuestra cómo se puede reutilizar la ontología de turismo que se está desarrollando en el contexto del espacio de datos de turismo promovido por SEGITTUR. Específicamente, se utilizan en los ejemplos las siguientes clases y propiedades:
@@ -57,7 +57,7 @@ El propósito de esta ontología es el de proporcionar un vocabulario común par
 
 ## Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo de esta ontología es `estur` y se publica bajo el espacio de nombres https://ontologia.estur.es/turismo/def/core#
+El prefijo de esta ontología es `estur` y se publica bajo el espacio de nombres https://ontologia.segittur.es/turismo/def/core#
 
 ## Estructura del repositorio (Repository structure)
 
