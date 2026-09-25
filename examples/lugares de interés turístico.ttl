@@ -32,18 +32,6 @@ ex:Desc_seg-0 a estur:Description;
   estur:longDescription "El Acueducto de Segovia es una de las obras de ingeniería civil romana más impresionantes y mejor conservadas que conducía las aguas a la ciudad.";
   estur:shortDescription "Obra de ingeniería civil romana." .
 
-ex:Rating_alcala-0 a estur:Rating;
-  estur:ratingUnit "stars";
-  estur:ratingValue "0" .
-
-ex:Rating_alcala-1 a estur:Rating;
-  estur:ratingUnit "stars";
-  estur:ratingValue "0" .
-
-ex:Rating_seg-0 a estur:Rating;
-  estur:ratingUnit "stars";
-  estur:ratingValue "0" .
-
 ex:cultural/alcazar/alcala-0 a estur:Alcazar;
   estur:hasDescription ex:Desc_alcala-0;
   estur:hasLocation ex:location/Location_alcala-0;
