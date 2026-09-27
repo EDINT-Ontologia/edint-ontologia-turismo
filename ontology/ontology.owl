@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://edint.es/def/turismo#"
+     xml:base="https://edint.es/def/turismo#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="https://schema.org/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:widoco="https://w3id.org/widoco/vocab#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <owl:Ontology rdf:about="https://edint.es/def/turismo#">
+        <owl:versionIRI rdf:resource="https://edint.es/def/turismo/0.1.0"/>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Daniel Doña</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Edna Ruckhaus</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Lucía Sánchez</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Maria del Socorro Bernardos</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Oscar Corcho</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:description xml:lang="es">Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo.</dcterms:description>
+        <dcterms:description xml:lang="en">Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources.</dcterms:description>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dcterms:title xml:lang="es">Ontología EDINT de Turismo</dcterms:title>
+        <dcterms:title xml:lang="en">EDINT Tourism Ontology</dcterms:title>
+        <rdfs:label xml:lang="es">Turismo</rdfs:label>
+        <rdfs:label xml:lang="en">Tourism</rdfs:label>
+        <vann:preferredNamespacePrefix>segittur</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/turismo#"/>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dcterms:created>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dcterms:modified>
+        <schema:codeRepository rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-turismo"/>
+        <schema:funding>Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)</schema:funding>
+        <dcterms:publisher rdf:parseType="Resource">
+            <foaf:name>FEMP</foaf:name>
+            <foaf:homepage rdf:resource="https://www.femp.es/"/>
+            <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
+        </dcterms:publisher>
+        <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Turismo. EDINT. Revisión: v0.1.0.</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation xml:lang="en">EDINT Tourism Ontology. EDINT. Revision: v0.1.0.</dcterms:bibliographicCitation>
+        <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+        <dcterms:abstract xml:lang="es">Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo.</dcterms:abstract>
+        <dcterms:abstract xml:lang="en">Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources.</dcterms:abstract>
+    </owl:Ontology>
+    <foaf:Organization rdf:about="https://oeg.fi.upm.es/">
+        <foaf:name>Ontology Engineering Group, UPM</foaf:name>
+    </foaf:Organization>
+</rdf:RDF>
