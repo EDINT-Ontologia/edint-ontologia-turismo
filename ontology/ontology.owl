@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://edint.es/def/turismo#"
-     xml:base="https://edint.es/def/turismo#"
+     xml:base="https://edint.es/def/turismo"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,7 +11,7 @@
      xmlns:widoco="https://w3id.org/widoco/vocab#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <owl:Ontology rdf:about="https://edint.es/def/turismo#">
+    <owl:Ontology rdf:about="https://edint.es/def/turismo">
         <owl:versionIRI rdf:resource="https://edint.es/def/turismo/0.1.0"/>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
@@ -41,7 +41,7 @@
         <rdfs:label xml:lang="es">Turismo</rdfs:label>
         <rdfs:label xml:lang="en">Tourism</rdfs:label>
         <vann:preferredNamespacePrefix>segittur</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/turismo#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/turismo#</vann:preferredNamespaceUri>
         <owl:versionInfo>0.1.0</owl:versionInfo>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dcterms:created>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-23</dcterms:issued>
