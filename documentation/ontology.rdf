@@ -10,7 +10,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
-    <owl:Ontology rdf:about="https://edint.es/def/turismo#">
+    <owl:Ontology rdf:about="https://edint.es/def/turismo">
         <owl:versionIRI rdf:resource="https://edint.es/def/turismo/0.1.0"/>
         <terms:abstract xml:lang="en">Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources.</terms:abstract>
         <terms:abstract xml:lang="es">Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo.</terms:abstract>
@@ -31,7 +31,7 @@
         <terms:title xml:lang="en">EDINT Tourism Ontology</terms:title>
         <terms:title xml:lang="es">Ontología EDINT de Turismo</terms:title>
         <vann:preferredNamespacePrefix>segittur</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/turismo#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/turismo#</vann:preferredNamespaceUri>
         <rdfs:label xml:lang="en">Tourism</rdfs:label>
         <rdfs:label xml:lang="es">Turismo</rdfs:label>
         <owl:versionInfo>0.1.0</owl:versionInfo>
