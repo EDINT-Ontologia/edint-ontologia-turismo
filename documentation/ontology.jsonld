@@ -1,7 +1,7 @@
 [ {
   "@id" : "_:genid1",
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Edna Ruckhaus"
+    "@value" : "Daniel Doña"
   } ],
   "https://schema.org/affiliation" : [ {
     "@id" : "https://oeg.fi.upm.es/"
@@ -9,7 +9,7 @@
 }, {
   "@id" : "_:genid2",
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Daniel Doña"
+    "@value" : "Edna Ruckhaus"
   } ],
   "https://schema.org/affiliation" : [ {
     "@id" : "https://oeg.fi.upm.es/"

@@ -40,11 +40,11 @@
         <schema:funding>Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)</schema:funding>
     </owl:Ontology>
     <rdf:Description rdf:nodeID="genid1">
-        <foaf:name>Edna Ruckhaus</foaf:name>
+        <foaf:name>Daniel Doña</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid2">
-        <foaf:name>Daniel Doña</foaf:name>
+        <foaf:name>Edna Ruckhaus</foaf:name>
         <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid3">
