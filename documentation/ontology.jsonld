@@ -106,10 +106,10 @@
   } ],
   "http://purl.org/dc/terms/bibliographicCitation" : [ {
     "@language" : "en",
-    "@value" : "EDINT Tourism Ontology. EDINT. Revision: v0.1.0."
+    "@value" : "EDINT Tourism Ontology. EDINT. Revision: v0.2.2."
   }, {
     "@language" : "es",
-    "@value" : "Ontología EDINT de Turismo. EDINT. Revisión: v0.1.0."
+    "@value" : "Ontología EDINT de Turismo. EDINT. Revisión: v0.2.2."
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -168,10 +168,10 @@
     "@value" : "Turismo"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://edint.es/def/turismo/0.1.0"
+    "@id" : "https://edint.es/def/turismo/0.2.2"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.1.0"
+    "@value" : "0.2.2"
   } ],
   "https://schema.org/codeRepository" : [ {
     "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-turismo"
