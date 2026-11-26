@@ -1,4 +1,4 @@
-@prefix ex: <http://example.org/recurso/> .
+@prefix ex: <https://example.org/recurso/> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .
 @prefix map: <http://mapping.example.com/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
