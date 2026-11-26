@@ -33,7 +33,11 @@
                                 owl:versionInfo "0.2.2" ;
                                 <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-turismo> ;
                                 <https://schema.org/creativeWorkStatus> "Ontology Specification"@en ;
-                                <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+                                <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" ;
+                                <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" ;
+                                <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" ;
+                                <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" ;
+                                <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
 
 _:genid1 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" ;
           <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
@@ -128,6 +132,22 @@ _:genid6 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> ;
 
 ###  https://schema.org/funding
 <https://schema.org/funding> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#jsonldSerialization
+<https://w3id.org/widoco/vocab#jsonldSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#ntSerialization
+<https://w3id.org/widoco/vocab#ntSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#turtleSerialization
+<https://w3id.org/widoco/vocab#turtleSerialization> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
