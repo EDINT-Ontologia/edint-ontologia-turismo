@@ -1,7 +1,7 @@
 [ {
   "@id" : "_:genid1",
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Edna Ruckhaus"
+    "@value" : "Daniel Doña"
   } ],
   "https://schema.org/affiliation" : [ {
     "@id" : "https://oeg.fi.upm.es/"
@@ -9,7 +9,7 @@
 }, {
   "@id" : "_:genid2",
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "Daniel Doña"
+    "@value" : "Edna Ruckhaus"
   } ],
   "https://schema.org/affiliation" : [ {
     "@id" : "https://oeg.fi.upm.es/"
@@ -106,10 +106,10 @@
   } ],
   "http://purl.org/dc/terms/bibliographicCitation" : [ {
     "@language" : "en",
-    "@value" : "EDINT Tourism Ontology. EDINT. Revision: v0.1.0."
+    "@value" : "EDINT Tourism Ontology. EDINT. Revision: v0.2.2."
   }, {
     "@language" : "es",
-    "@value" : "Ontología EDINT de Turismo. EDINT. Revisión: v0.1.0."
+    "@value" : "Ontología EDINT de Turismo. EDINT. Revisión: v0.2.2."
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -168,10 +168,10 @@
     "@value" : "Turismo"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://edint.es/def/turismo/0.1.0"
+    "@id" : "https://edint.es/def/turismo/0.2.2"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "0.1.0"
+    "@value" : "0.2.2"
   } ],
   "https://schema.org/codeRepository" : [ {
     "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-turismo"
@@ -182,6 +182,18 @@
   } ],
   "https://schema.org/funding" : [ {
     "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
+  } ],
+  "https://w3id.org/widoco/vocab#jsonldSerialization" : [ {
+    "@value" : "ontology.jsonld"
+  } ],
+  "https://w3id.org/widoco/vocab#ntSerialization" : [ {
+    "@value" : "ontology.nt"
+  } ],
+  "https://w3id.org/widoco/vocab#rdfxmlSerialization" : [ {
+    "@value" : "ontology.rdf"
+  } ],
+  "https://w3id.org/widoco/vocab#turtleSerialization" : [ {
+    "@value" : "ontology.ttl"
   } ]
 }, {
   "@id" : "https://oeg.fi.upm.es/",
@@ -199,5 +211,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#jsonldSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#ntSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#rdfxmlSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#turtleSerialization",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]

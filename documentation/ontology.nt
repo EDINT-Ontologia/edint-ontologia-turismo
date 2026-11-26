@@ -1,16 +1,16 @@
 <https://edint.es/def/turismo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://edint.es/def/turismo> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/turismo/0.1.0> .
+<https://edint.es/def/turismo> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/turismo/0.2.2> .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/abstract> "Ontology for representing tourist accommodation and points of interest in a municipality, reusing classes and properties from the SEGITTUR ontology. It covers accommodation establishments (hotels, guesthouses, aparthotels, holiday rentals) with their category, units and location, as well as historical and cultural resources."@en .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/abstract> "Ontología para la representación de alojamientos y puntos de interés turísticos de un municipio, que reutiliza clases y propiedades de la ontología SEGITTUR. Cubre establecimientos de alojamiento (hoteles, hostales, aparthoteles, alquileres vacacionales) con su categoría, unidades y localización, así como recursos históricos y culturales. Su propósito es proporcionar un vocabulario común para conocer y gestionar el turismo municipal, como base para su explotación a través de la Ontología de Cubos de Turismo."@es .
-<https://edint.es/def/turismo> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Tourism Ontology. EDINT. Revision: v0.1.0."@en .
-<https://edint.es/def/turismo> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Turismo. EDINT. Revisión: v0.1.0."@es .
+<https://edint.es/def/turismo> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Tourism Ontology. EDINT. Revision: v0.2.2."@en .
+<https://edint.es/def/turismo> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Turismo. EDINT. Revisión: v0.2.2."@es .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/created> "2026-09-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/creator> _:genid1 .
 _:genid1 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
-_:genid1 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/creator> _:genid2 .
 _:genid2 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
-_:genid2 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
 <https://edint.es/def/turismo> <http://purl.org/dc/terms/creator> _:genid3 .
 _:genid3 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
@@ -35,10 +35,14 @@ _:genid6 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
 <https://edint.es/def/turismo> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://edint.es/def/turismo#" .
 <https://edint.es/def/turismo> <http://www.w3.org/2000/01/rdf-schema#label> "Tourism"@en .
 <https://edint.es/def/turismo> <http://www.w3.org/2000/01/rdf-schema#label> "Turismo"@es .
-<https://edint.es/def/turismo> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://edint.es/def/turismo> <http://www.w3.org/2002/07/owl#versionInfo> "0.2.2" .
 <https://edint.es/def/turismo> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-turismo> .
 <https://edint.es/def/turismo> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
 <https://edint.es/def/turismo> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+<https://edint.es/def/turismo> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
+<https://edint.es/def/turismo> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
+<https://edint.es/def/turismo> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
+<https://edint.es/def/turismo> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
 # 
 # 
 # #################################################################
@@ -101,6 +105,18 @@ _:genid6 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
 # 
 # https://schema.org/funding
 <https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#jsonldSerialization
+<https://w3id.org/widoco/vocab#jsonldSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#ntSerialization
+<https://w3id.org/widoco/vocab#ntSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#turtleSerialization
+<https://w3id.org/widoco/vocab#turtleSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
